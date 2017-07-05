@@ -1,0 +1,10 @@
+/**index.wxss**/
+/* 样式*/
+.container{
+   /*vh单位代表当前页面的百分比*/
+  height: 100vh;
+}
+.a{
+  height: 100%;
+  width: 100%;
+}

@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#D4D4D4",
+    "navigationBarTitleText": "ofo共享单车",
+    "navigationBarTextStyle":"black"
+  }
+}

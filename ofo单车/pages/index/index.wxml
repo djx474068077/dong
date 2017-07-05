@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+
+<!-- latitude 经度
+     longitude 纬度
+     scale 缩放级别 范围5-18 -->
+  <map class="a" 
+  longitude="{{lo}}"
+  latitude="{{la}}" 
+  scale="{{a}}"
+  markers="{{markers}}"
+  controls="{{controls}}"
+  circles="{{circles}}"
+  bindcontroltap="controltap"
+  ></map>
+  
+</view>

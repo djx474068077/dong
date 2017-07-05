@@ -14,7 +14,7 @@ Page({
   //data:{}中数据除数字外都要用双引号
   data: {
    
-    a: 18,
+    a: 17,
    
   },
 
@@ -229,7 +229,9 @@ Page({
     } else if (e.controlId == 8) {//点击定位图标
       this.relocate();
     } else if (e.controlId == 9) {//点击维修图标
-      this.service();
+      wx.navigateTo({
+        url: '/pages/weixiu/weixiu',
+      })
     }
   },
   //showtip出现提示框事件
